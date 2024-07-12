@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.player-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px;
+  text-align: center;
+  max-width: 300px;
+  margin: 16px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.player-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.player-name {
+  font-size: 1.5em;
+  margin: 8px 0;
+}
+
+.player-position {
+  font-size: 1.2em;
+  color: #666;
+  margin: 4px 0;
+}
+
+.player-stats {
+  font-size: 1em;
+  margin: 8px 0;
+}
+
+@media (max-width: 768px) {
+  .player-card {
+    max-width: 90%;
+  }
+}
